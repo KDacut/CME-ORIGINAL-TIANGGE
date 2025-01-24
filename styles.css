@@ -160,7 +160,25 @@ body{
   font-size: 15px;
 }
 
-#feature .f1logo, .f2logo{
+#feature .f1logo{
+  height: 100px;
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+#feature .f2logo{
+  height: 100px;
+  width: 150px;
+  margin-bottom: 10px;
+}
+
+#feature .f3logo{
+  height: 100px;
+  width: 140px;
+  margin-bottom: 10px;
+}
+
+#feature .f4logo{
   height: 100px;
   width: 100px;
   margin-bottom: 10px;
