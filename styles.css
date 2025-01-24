@@ -160,10 +160,17 @@ body{
   font-size: 15px;
 }
 
-#feature .f1logo{
+#feature .f1logo, .f2logo{
   height: 100px;
   width: 100px;
   margin-bottom: 10px;
+}
+
+#feature{
+  display: flex;  
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 #feature .fe-box{
