@@ -305,3 +305,11 @@ body{
   background: #088178;
   color: #fff;
 }
+
+#sign-up{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  background-image: url();
+}
