@@ -311,5 +311,33 @@ body{
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
-  background-image: url();
+  background-image: url("images/banner/b1.png");
+  background-repeat: repeat;
+  background-color: #041e42;
+}
+
+#sign-up h4{
+  font-size: 22px;
+  font-weight: 700;
+  color: #fff;
+}
+
+#sign-up p{
+  font-size: 14px;
+  font-weight: 600;
+  color: #818ea0;
+}
+
+#sign-up span{
+  color: #ef3636;
+}
+
+#sign-up input{
+  height: 3.125rem;
+  padding: 0 1.25em;
+  font-size: 14px;
+  width: 110%;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  outline: none;
 }
