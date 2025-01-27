@@ -332,6 +332,10 @@ body{
   color: #ef3636;
 }
 
+.form label{
+  color: #fff;
+}
+
 #sign-up input{
   height: 3.125rem;
   padding: 0 1.25em;
@@ -340,4 +344,10 @@ body{
   border: 1px solid transparent;
   border-radius: 4px;
   outline: none;
+}
+
+#sign-up button{
+  background-color: #088178;
+  color: #fff;
+  white-space: nowrap;
 }
