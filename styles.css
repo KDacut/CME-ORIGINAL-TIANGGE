@@ -370,7 +370,7 @@ footer .col{
   margin-bottom: 20px;
 }
 
-.copyright {
+footer .copyright {
   text-align: center;
   padding: 10px;
   bottom: 0;
@@ -385,4 +385,11 @@ footer h4{
 footer p{
   font-size: 13px;
   margin: 0 0 8px 0;
+}
+
+footer a{
+  font-size: 13px;
+  text-decoration: none;
+  color: #111;
+  margin-bottom: 10px;
 }
