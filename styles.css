@@ -352,8 +352,9 @@ body{
   white-space: nowrap;
 }
 
-.logo2{
+footer .logo2{
   height: 80px;
+  margin-bottom: 30px;
 }
 
 footer{
@@ -367,4 +368,21 @@ footer .col{
   flex-direction: column;
   align-items: flex-start;
   margin-bottom: 20px;
+}
+
+.copyright {
+  text-align: center;
+  padding: 10px;
+  bottom: 0;
+  width: 100%;
+}
+
+footer h4{
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+
+footer p{
+  font-size: 13px;
+  margin: 0 0 8px 0;
 }
