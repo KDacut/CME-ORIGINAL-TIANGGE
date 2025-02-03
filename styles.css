@@ -469,4 +469,35 @@ footer a{
   #product1 .pro-container{
     justify-content: center;
   }
+
+  #product1 .pro{
+    margin: 15px;
+  }
+
+  #banner{
+    height: 25vh;
+  }
+
+  #newsletter .form{
+    width: 70%;
+  }
+}
+
+@media (max-width: 477px){
+  #header{
+    padding: 10px 30px;
+  }
+
+  h1{
+    font-size: 38px;
+  }
+
+  h2{
+    font-size: 32px;
+  }
+
+  #hero{
+    padding: 0 20px;
+    background-position: 55%;
+  }
 }
