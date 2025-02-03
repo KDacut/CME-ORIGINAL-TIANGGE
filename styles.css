@@ -517,4 +517,8 @@ footer a{
   #product1 .pro{
     width: 100%;
   }
+
+  #banner{
+    height: 50vh;
+  }
 }
