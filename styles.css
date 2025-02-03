@@ -119,6 +119,10 @@ body{
   align-items: center;
 }
 
+#close{
+  display: none;
+}
+
 #hero{
   background-image: url("images/hero1.png");
   height: 90vh;
@@ -437,9 +441,24 @@ footer a{
 
   #close{
     position: absolute;
+    display: initial;
     top: 30px;
     left: 30px;
     color: #222;
     font-size: 24px;
+  }
+
+  #hero{
+    height: 70vh;
+    padding: 0 80px;
+    background-position: top 30% right 30%;
+  }
+
+  #feature{
+    justify-content: center;
+  }
+
+  #feature .fe-box{
+    margin: 15px 15px;
   }
 }
