@@ -521,4 +521,9 @@ footer a{
   #banner{
     height: 50vh;
   }
+
+  #newsletter .form{
+    width: 100%;
+  }
+
 }
