@@ -403,6 +403,10 @@ footer a{
   margin-bottom: 10px;
 }
 
+#page-header{
+  background-image: url("images/banner/b2.jpg") ;
+}
+
 @media (max-width:799px) {
   .section-p1{
     padding: 40px 40px;
