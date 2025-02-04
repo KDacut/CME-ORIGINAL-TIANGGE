@@ -13,13 +13,3 @@ if (close){
     nav.classList.remove('active');
   })
 }
-
-let photoURL = "";
-
-if (photoURL) {
-  photoElement.src = photoURL;
-  photoElement.classList.remove('hidden');
-} 
-  else {
-  photoElement.classList.add('hidden');
-}
