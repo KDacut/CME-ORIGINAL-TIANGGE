@@ -596,3 +596,27 @@ button:hover {
   font-size: 16px;
   font-weight: 600;
 }
+
+#prodetails .single-pro-image{
+  width: 40%;
+  margin-right: 50px;
+}
+
+.photo-container {
+  width: 300px;
+  height: 300px;
+  border: 2px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eaeaea;
+}
+
+.hidden {
+  display: none;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
