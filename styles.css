@@ -412,6 +412,12 @@ footer a{
   justify-content: center;
   text-align: center;
   flex-direction: column;
+  padding: 14px;
+}
+
+#page-header h2,
+#page-header p{
+  color: #fff;
 }
 
 @media (max-width:799px) {
