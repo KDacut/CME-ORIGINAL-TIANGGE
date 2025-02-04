@@ -405,6 +405,13 @@ footer a{
 
 #page-header{
   background-image: url("images/banner/b3.jpg") ;
+  height: 40vh;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
 }
 
 @media (max-width:799px) {
