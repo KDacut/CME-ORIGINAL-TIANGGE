@@ -31,5 +31,18 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 $conn->close();
 ?>
 
-<?php $content = 'register_form.php'; ?>
-<?php include('layout.php'); ?>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register</title>
+</head>
+<body>
+    <h2>Register as Stall Owner</h2>
+    <form method="post" action="">
+        Name: <input type="text" name="owner_name" required><br>
+        Email: <input type="email" name="owner_email" required><br>
+        Password: <input type="password" name="owner_password" required><br>
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
