@@ -43,19 +43,19 @@
 
     <div class="small-img-group">
       <div class="small-img-col">
-        <img src="images/products/p1.jpg" width="100% classsmall-img" alt="">
+        <img src="images/products/p1.jpg" width="100%" class="small-img" alt="">
       </div>
 
       <div class="small-img-col">
-        <img src="images/products/p2.jpg" width="100% classsmall-img" alt="">
+        <img src="images/products/p2.jpg" width="100%" class="small-img" alt="">
       </div>
 
       <div class="small-img-col">
-        <img src="images/products/p3.jpg" width="100% classsmall-img" alt="">
+        <img src="images/products/p3.jpg" width="100%" class="small-img" alt="">
       </div>
 
       <div class="small-img-col">
-        <img src="images/products/p4.jpg" width="100% classsmall-img" alt="">
+        <img src="images/products/p4.jpg" width="100%" class="small-img" alt="">
       </div>
     </div>
   </div>
@@ -111,7 +111,23 @@
   </div>
 </footer>
 
+<script>
+  var MainImg = document.getElementById("MainImg");
+  var smalling = document.getElementsByClassName("small-img");
 
+  smalling[0].onclick = function(){
+    MainImg.src = smalling[0].src;
+  }
+  smalling[1].onclick = function(){
+    MainImg.src = smalling[1].src;
+  }
+  smalling[2].onclick = function(){
+    MainImg.src = smalling[2].src;
+  }
+  smalling[3].onclick = function(){
+    MainImg.src = smalling[3].src;
+  }
+</script>
 
 
 <script src="script.js"></script>
