@@ -283,8 +283,8 @@ body{
 }
 
 #banner{
-  background-image: url("images/banner/b4.png");
-  height: 90vh;
+  background-image: url("images/banner/b2.jpg");
+  height: 40vh;
   width: 100%;
   background-size: cover;
   background-position: top 25% right 0;
@@ -297,12 +297,12 @@ body{
 }
 
 #banner h4{
-  color: black;
+  color: #fff;
   font-size: 16px;
 }
 
 #banner h2{
-  color: black;
+  color: #fff;
   font-size: 30px;
   padding: 10px 0;
 }
