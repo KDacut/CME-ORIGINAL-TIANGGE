@@ -612,3 +612,7 @@ button:hover {
   flex-basis: 24%;
   cursor: pointer;
 }
+
+#page-header .blog-header{
+  background-image: url("images/banner/b5.jpg");
+}
