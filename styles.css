@@ -613,6 +613,6 @@ button:hover {
   cursor: pointer;
 }
 
-#page-header .blog-header{
+#page-header.blog-header{
   background-image: url("images/banner/b5.jpg");
 }
