@@ -670,3 +670,7 @@ button:hover {
 #blog .blog-details a:hover::after{
   background-color: #088178;
 }
+
+#page-header.about-header{
+  background-image:url("images/about/a1.png") ;
+}
