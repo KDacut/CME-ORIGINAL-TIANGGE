@@ -553,7 +553,6 @@ footer a{
 .search-container {
   display: flex;
   align-items: center;
-  border: 1px solid #ccc;
   padding: 10px;
   border-radius: 5px;
   background-color: #e3e6f3;
