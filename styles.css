@@ -694,9 +694,10 @@ button:hover {
   font-size: 15px;
   color: #000;
   padding: 15px 30px;
-  transition: 0.2s;
+  transition: 0.3s ease;
 }
 
 .page-view:hover{
-  color: #0056b3;
+  color: #ccc;
+  text-decoration: underline;
 }
