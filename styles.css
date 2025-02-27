@@ -592,6 +592,14 @@ button:hover {
   font-weight: 600;
 }
 
+#pagination a.active{
+  color: #000;
+}
+
+#pagination a::after{
+  background-color: #fff;
+}
+
 #pagination a i{
   font-size: 16px;
   font-weight: 600;
